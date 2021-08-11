@@ -1,0 +1,35 @@
+First download Git from any browser u want.
+
+then open git on your local machine
+git config --global user.name username_of_github
+
+git config --global user.email email_id
+
+--- Initialize git in local repository----
+use --- git init ---
+
+-to check the status :
+use git status 
+
+-to move the files in the directory to staging area.
+use git add filename
+for all files -> git add *
+
+-to commit changes 
+use-> git commit -m "[Any statement of committing]"
+
+-to add the remote repository to your local repository
+use -> git remote add origin [github repository https link]
+
+-to switch the branch 
+use -> git switch [branch name]
+
+- to switch between the versions
+use -> git checkout ( last commit id )
+
+- to push entire local repository to remote repository 
+use -> git push origin main 
+
+---- always u push the files in main branch i.e master branch so no need to write ( origin main) in the above command.
+
+-to 
